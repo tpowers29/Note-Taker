@@ -1,0 +1,27 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "Express app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpowers29/Note-Taker.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "express",
+    "app"
+  ],
+  "author": "Tyler Powers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tpowers29/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/tpowers29/Note-Taker#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
