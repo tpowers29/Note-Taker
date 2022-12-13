@@ -10,7 +10,7 @@ app.post("/api/notes",(req,res) => {
     const newNote = {
         title: req.body.title,
         text: req.body.text,
-        id: Math.floor(Math.radon()*9219)
+        id: Math.floor(Math.random()*9219)
     }
     db.push(newNote)
    fs.writeFileSync("./db/db.json",JSON.stringify(db),function(err){
